@@ -62,4 +62,4 @@ for file in sourcefiles:
         shutil.move(os.path.join(sourcepath,file), os.path.join('./zips',file))
     elif  file.endswith('.rar'):
         shutil.move(os.path.join(sourcepath,file), os.path.join('./zips',file))
-#print (sourcefiles)
+
